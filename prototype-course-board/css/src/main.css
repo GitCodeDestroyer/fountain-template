@@ -1,0 +1,77 @@
+/* DEFAULT STYLES */
+
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box
+}
+
+body {
+    font: 300 18px 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+    background: #F2F3F5;
+    color: #3C3F50
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 300
+}
+
+/* NAVIGATION */
+
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    padding: 0 4%;
+    box-shadow: 0 7px 10px rgba(0, 0, 0, .001);
+    background: #FFFFFF
+}
+
+.nav .btn {
+    color: #3C3F50;
+    text-transform: uppercase;
+    box-shadow: 0 7px 20px rgba(0, 0, 0, .05);
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    text-align: center;
+    margin: 10px 0
+}
+
+.nav .btn1 {
+    background: #F2F3F5;
+    border: 1px solid #E0E0E0;
+    padding: 0 40px 0 20px;
+    float: left
+}
+
+.nav .btn2 {
+    background: linear-gradient(45deg, #f87e84, #FD767D 50%);
+    color: #FFFFFF;
+    padding: 0 40px;
+    float: right
+}
+
+.nav .btn span {
+    display: inline-block
+}
+
+.nav .text {
+    float: right
+}
+
+.nav .icon {
+    font-size: 25px;
+    float: left;
+    line-height: 40px
+}

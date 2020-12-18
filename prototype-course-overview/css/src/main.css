@@ -1,0 +1,184 @@
+/* DEFAULT STYLES */
+
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    font: 300 18px 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+    background: #F4F4FA;
+    color: #3C3F50;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 300;
+}
+
+/* NAVIGATION */
+
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    padding: 0 4%;
+    box-shadow: 0 7px 10px rgba(0, 0, 0, .001);
+    background: #FFFFFF;
+}
+
+.nav .btn {
+    color: #3C3F50;
+    text-transform: uppercase;
+    box-shadow: 0 7px 20px rgba(0, 0, 0, .05);
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.nav .btn1 {
+    background: #F2F3F5;
+    border: 1px solid #E0E0E0;
+    padding: 0 40px 0 20px;
+    float: left;
+}
+
+.nav .btn2 {
+    background: linear-gradient(45deg, #f87e84, #FD767D 50%);
+    color: #FFFFFF;
+    padding: 0 40px;
+    float: right;
+}
+
+.nav .btn span {
+    display: inline-block;
+}
+
+.nav .text {
+    float: right
+}
+
+.nav .icon {
+    font-size: 25px;
+    float: left;
+    line-height: 40px
+}
+
+/* ABOUT COURSE */
+
+.about {
+    float: left;
+    width: 65%;
+    left: 2%;
+    top: calc(60px + 2vw);
+    background: #FFFFFF;
+    box-shadow: 0 7px 20px rgba(0, 0, 0, .05);
+    border-radius: 5px;
+    overflow: hidden;
+    position: fixed;
+    height: calc(92% - 60px);
+}
+
+.about img {
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+    margin-top: calc(-68vw / 1.2 / 3);
+}
+
+.about .text {
+    font-size: 20px;
+    background: #FFFFFF;
+    padding: 15px 4%;
+}
+
+.about code {
+    background: #D8EDED;
+    padding: 2px 5px;
+    border-radius: 2px;
+    font-family: "Consolas", "Courier New", Courier, monospace !important;
+    font-weight: lighter !important;
+    font-size: 16px !important;
+}
+
+.about p {
+    margin: 20px 0;
+}
+
+/* OVERVIEW */
+
+.overview {
+    background: #FFFFFF;
+    border-radius: 5px;
+    float: right;
+    width: 29%;
+    height: calc(100% - 60px - 4vw);
+    padding: 10px 15px;
+    position: fixed;
+    right: 2%;
+    top: calc(2vw + 60px);
+    box-shadow: 0 7px 20px rgba(0, 0, 0, .05);
+}
+
+.overview h3 {
+    font-weight: 500;
+}
+
+.overview p {
+    margin: 10px 0;
+    font-size: 18px;
+    line-height: 50px;
+    font-weight: 500;
+    clear: both;
+}
+
+.overview .left {
+    float: left;
+    padding-left: 30px
+}
+
+.overview .right {
+    float: right;
+    color: #888888
+}
+
+.overview .icon {
+    color: #FD767D;
+    position: absolute;
+    margin-left: -30px;
+    font-size: 25px;
+    line-height: 53px;
+}
+
+.overview .settings {
+    position: fixed;
+    bottom: 2vw;
+    height: 60px;
+    width: 29%;
+    border-top: 1px solid #EEEEEE;
+    right: 2vw;
+    line-height: 60px;
+    clear: both;
+    padding: 0 15px;
+}
+
+.overview .settings h3 {
+    float: left;
+}
+
+.overview .settings span {
+    float: right;
+    line-height: 60px;
+    font-size: 25px;
+}
